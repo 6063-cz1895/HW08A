@@ -1,60 +1,9 @@
-# p5.js Template
-
-This is a README file that can be used to describe and document your assignment.
-
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
+# HW08A
+Generally how I detect color is by building a "isSimilar" function, what it does is that it checks if two colors are similar within a defined tolerance range. The function takes detected and target colors as input, with each color represented by its red, green, and blue (RGB) values. It then calculates the absolute difference between the RGB values of the two colors. If the differences for all three values are within the tolerance value, the function have detected the color.
+I changed the red to user-picked color; the yellow to CELERY = color(164, 193, 77), a green color; the blue to (mango) TANGO = color(223, 113, 0) an orangel-like color.
+I run my sketch on another image of Mondrian's paintiong with a similar color palate (see image attached). My code was able to switch the most color, but because the color is not uniform, my code is not able to change all the color, however because this new painting is using several different blue, my code is not working on the blue at all. By the way, the scaling function works just fine as expected.
 
 
 Image on repo:  
-![image description](./file-name.jpg)
+![image description](./otherImage.jpg)
 
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
